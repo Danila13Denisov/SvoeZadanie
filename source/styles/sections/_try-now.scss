@@ -1,0 +1,79 @@
+#try-now {
+	min-height: 467px;
+	background-color: $purple;
+	color: $light-gray;
+	.container {
+		padding-top: 75px;
+		padding-bottom: 75px;
+		.row:nth-child(1) {
+			margin-top: 10px;
+			h2 {
+				color: $white;
+				span {
+					padding-left: 10px;
+				}
+			}
+		}
+		.row:nth-child(2) {
+			p {
+				margin: 23px 20px;
+				white-space: nowrap;
+				@media (max-width: 991px) {
+					margin-top: 50px;
+				}
+				img {
+					transform: translate(-19px, 15px);
+				}
+			}
+		}
+		.row:nth-child(3) {
+			.col-md-6 {
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
+			input, button {
+				height: 50px;
+			}
+			input {
+				background-color: $very-transparent-light-gray;
+				border: 1px solid $semi-transparent-light-gray;
+				color: inherit;
+				padding-left: 27px;
+				padding-right: 27px;
+				&::placeholder {
+					color: inherit;
+					text-transform: uppercase;
+				}
+				&:focus {
+					border-color: $white;
+				}
+			}
+			button {
+				opacity: 0.8;
+				background: #ff6d6d;
+				border-color: #ff6d6d;
+				cursor: pointer;
+				transition: 0.3s;
+
+				&:hover{
+					border-color: darken($red,15%);
+					background-color: darken($red,15%);
+				}
+			}
+		}
+		.row:nth-child(4) {
+			p {
+				margin-top: 35px;
+				margin-bottom: 0;
+				opacity: 0.6;
+				a {
+					text-decoration: underline;
+					color: inherit;
+					&:hover {
+						color: $red;
+					}
+				}
+			}
+		}
+	}
+}

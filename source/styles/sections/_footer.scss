@@ -1,0 +1,145 @@
+footer {
+	min-height: 332px;
+	background-color: $white;
+	background-image: url("../../images/triangle-footer.png");
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	@media (max-width: 767px) {
+		background: $white;
+	}
+	.col-sm-6 {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		.start-ex {
+			font-size: 27px;
+		}
+		h3 {
+			position: relative;
+			margin-bottom: 0px;
+			padding-bottom: 15px;
+			span {
+				display: inline-block;
+				position: absolute;
+				z-index: 0;
+				color: $white;
+				background-image: url("../../images/start-ex.png");
+				background-repeat: no-repeat;
+				height: 47px;
+				width: 42px;
+				padding: 8px 0 0 2px;
+				margin: -8px 0 0 3px;
+			}
+		}
+		p {
+			font-size: 14px;
+			position: relative;
+			z-index: 1;
+			opacity: 0.56;
+			padding-top: 3px;
+		}
+		.nav-link {
+			font-size: 14px;
+			opacity: 0.66;
+			color: inherit;
+			padding: 5px 0;
+			&:hover {
+				color: $red;
+			}
+		}
+		.newsletter-form {
+			margin-top: 10px;
+			.form-control {
+				color: $dark-gray;
+				background-color: $light-gray;
+				height: 49px;
+				&::placeholder {
+					color: $medium-gray;
+					text-transform: uppercase;
+				}
+				&:focus {
+					border: 1px solid $medium-gray;
+					background-color: $white;
+					text-transform: lowercase;
+				}
+			}
+			.input-group-addon {
+				background-color: $red;
+				border-color: #ff6d6d;
+				height: 49px;
+			}
+			button {
+				width: 52px;
+				cursor: pointer;
+				&:hover {
+					background-color: darken($red, 10%); //fix jer iz nekog razloga nece da ocita bootstrap mixin na ovom specificnom dugmetu
+				}
+				img {
+					padding-left: 3px;
+				}
+			}
+		}
+		.social {
+			margin-top: 17px;
+			div {
+				display: inline-block;
+				overflow: hidden;
+				position: relative;
+				margin: 0 10px;
+				img {
+					position: absolute;
+				}
+			}
+			.social-dribble {
+				width: 20px;
+				height: 21px;
+				img {
+					left: -60px;
+				}
+				&:hover {
+					img {
+						left: -80px;
+					}
+				}
+			}
+			.social-facebook {
+				width: 11px;
+				height: 21px;
+				img {
+					left: 0px;
+				}
+				&:hover {
+					img {
+						left: -11px;
+					}
+				}
+			}
+			.social-google-plus {
+				width: 20px;
+				height: 17px;
+				img {
+					left: -100px;
+				}
+				&:hover {
+					img {
+						left: -120px;
+					}
+				}
+			}
+			.social-twitter {
+				width: 19px;
+				height: 17px;
+				img {
+					left: -22px;
+				}
+				&:hover {
+					img {
+						left: -41px;
+					}
+				}
+			}
+		}
+	}
+}

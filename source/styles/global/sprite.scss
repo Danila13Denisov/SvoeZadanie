@@ -1,0 +1,310 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$browser-name: 'browser';
+$browser-x: 622px;
+$browser-y: 1630px;
+$browser-offset-x: -622px;
+$browser-offset-y: -1630px;
+$browser-width: 820px;
+$browser-height: 375px;
+$browser-total-width: 1888px;
+$browser-total-height: 2653px;
+$browser-image: '../images/sprite.png';
+$browser: (622px, 1630px, -622px, -1630px, 820px, 375px, 1888px, 2653px, '../images/sprite.png', 'browser', );
+$client-image-name: 'client-image';
+$client-image-x: 1733px;
+$client-image-y: 1834px;
+$client-image-offset-x: -1733px;
+$client-image-offset-y: -1834px;
+$client-image-width: 80px;
+$client-image-height: 80px;
+$client-image-total-width: 1888px;
+$client-image-total-height: 2653px;
+$client-image-image: '../images/sprite.png';
+$client-image: (1733px, 1834px, -1733px, -1834px, 80px, 80px, 1888px, 2653px, '../images/sprite.png', 'client-image', );
+$coffee-mug-name: 'coffee-mug';
+$coffee-mug-x: 787px;
+$coffee-mug-y: 2005px;
+$coffee-mug-offset-x: -787px;
+$coffee-mug-offset-y: -2005px;
+$coffee-mug-width: 164px;
+$coffee-mug-height: 137px;
+$coffee-mug-total-width: 1888px;
+$coffee-mug-total-height: 2653px;
+$coffee-mug-image: '../images/sprite.png';
+$coffee-mug: (787px, 2005px, -787px, -2005px, 164px, 137px, 1888px, 2653px, '../images/sprite.png', 'coffee-mug', );
+$earphones-name: 'earphones';
+$earphones-x: 622px;
+$earphones-y: 2005px;
+$earphones-offset-x: -622px;
+$earphones-offset-y: -2005px;
+$earphones-width: 165px;
+$earphones-height: 221px;
+$earphones-total-width: 1888px;
+$earphones-total-height: 2653px;
+$earphones-image: '../images/sprite.png';
+$earphones: (622px, 2005px, -622px, -2005px, 165px, 221px, 1888px, 2653px, '../images/sprite.png', 'earphones', );
+$feature-1-name: 'feature-1';
+$feature-1-x: 1813px;
+$feature-1-y: 1834px;
+$feature-1-offset-x: -1813px;
+$feature-1-offset-y: -1834px;
+$feature-1-width: 67px;
+$feature-1-height: 67px;
+$feature-1-total-width: 1888px;
+$feature-1-total-height: 2653px;
+$feature-1-image: '../images/sprite.png';
+$feature-1: (1813px, 1834px, -1813px, -1834px, 67px, 67px, 1888px, 2653px, '../images/sprite.png', 'feature-1', );
+$feature-2-name: 'feature-2';
+$feature-2-x: 787px;
+$feature-2-y: 2142px;
+$feature-2-offset-x: -787px;
+$feature-2-offset-y: -2142px;
+$feature-2-width: 67px;
+$feature-2-height: 67px;
+$feature-2-total-width: 1888px;
+$feature-2-total-height: 2653px;
+$feature-2-image: '../images/sprite.png';
+$feature-2: (787px, 2142px, -787px, -2142px, 67px, 67px, 1888px, 2653px, '../images/sprite.png', 'feature-2', );
+$feature-3-name: 'feature-3';
+$feature-3-x: 854px;
+$feature-3-y: 2142px;
+$feature-3-offset-x: -854px;
+$feature-3-offset-y: -2142px;
+$feature-3-width: 67px;
+$feature-3-height: 67px;
+$feature-3-total-width: 1888px;
+$feature-3-total-height: 2653px;
+$feature-3-image: '../images/sprite.png';
+$feature-3: (854px, 2142px, -854px, -2142px, 67px, 67px, 1888px, 2653px, '../images/sprite.png', 'feature-3', );
+$free-trial-arrow-name: 'free-trial-arrow';
+$free-trial-arrow-x: 1866px;
+$free-trial-arrow-y: 1122px;
+$free-trial-arrow-offset-x: -1866px;
+$free-trial-arrow-offset-y: -1122px;
+$free-trial-arrow-width: 14px;
+$free-trial-arrow-height: 32px;
+$free-trial-arrow-total-width: 1888px;
+$free-trial-arrow-total-height: 2653px;
+$free-trial-arrow-image: '../images/sprite.png';
+$free-trial-arrow: (1866px, 1122px, -1866px, -1122px, 14px, 32px, 1888px, 2653px, '../images/sprite.png', 'free-trial-arrow', );
+$get-newsletter-name: 'get-newsletter';
+$get-newsletter-x: 1866px;
+$get-newsletter-y: 1100px;
+$get-newsletter-offset-x: -1866px;
+$get-newsletter-offset-y: -1100px;
+$get-newsletter-width: 22px;
+$get-newsletter-height: 22px;
+$get-newsletter-total-width: 1888px;
+$get-newsletter-total-height: 2653px;
+$get-newsletter-image: '../images/sprite.png';
+$get-newsletter: (1866px, 1100px, -1866px, -1100px, 22px, 22px, 1888px, 2653px, '../images/sprite.png', 'get-newsletter', );
+$macbook-name: 'macbook';
+$macbook-x: 0px;
+$macbook-y: 0px;
+$macbook-offset-x: 0px;
+$macbook-offset-y: 0px;
+$macbook-width: 1888px;
+$macbook-height: 1100px;
+$macbook-total-width: 1888px;
+$macbook-total-height: 2653px;
+$macbook-image: '../images/sprite.png';
+$macbook: (0px, 0px, 0px, 0px, 1888px, 1100px, 1888px, 2653px, '../images/sprite.png', 'macbook', );
+$partner-logo-1-name: 'partner-logo-1';
+$partner-logo-1-x: 1733px;
+$partner-logo-1-y: 1630px;
+$partner-logo-1-offset-x: -1733px;
+$partner-logo-1-offset-y: -1630px;
+$partner-logo-1-width: 130px;
+$partner-logo-1-height: 65px;
+$partner-logo-1-total-width: 1888px;
+$partner-logo-1-total-height: 2653px;
+$partner-logo-1-image: '../images/sprite.png';
+$partner-logo-1: (1733px, 1630px, -1733px, -1630px, 130px, 65px, 1888px, 2653px, '../images/sprite.png', 'partner-logo-1', );
+$partner-logo-2-name: 'partner-logo-2';
+$partner-logo-2-x: 951px;
+$partner-logo-2-y: 2005px;
+$partner-logo-2-offset-x: -951px;
+$partner-logo-2-offset-y: -2005px;
+$partner-logo-2-width: 110px;
+$partner-logo-2-height: 56px;
+$partner-logo-2-total-width: 1888px;
+$partner-logo-2-total-height: 2653px;
+$partner-logo-2-image: '../images/sprite.png';
+$partner-logo-2: (951px, 2005px, -951px, -2005px, 110px, 56px, 1888px, 2653px, '../images/sprite.png', 'partner-logo-2', );
+$partner-logo-3-name: 'partner-logo-3';
+$partner-logo-3-x: 1733px;
+$partner-logo-3-y: 1695px;
+$partner-logo-3-offset-x: -1733px;
+$partner-logo-3-offset-y: -1695px;
+$partner-logo-3-width: 98px;
+$partner-logo-3-height: 85px;
+$partner-logo-3-total-width: 1888px;
+$partner-logo-3-total-height: 2653px;
+$partner-logo-3-image: '../images/sprite.png';
+$partner-logo-3: (1733px, 1695px, -1733px, -1695px, 98px, 85px, 1888px, 2653px, '../images/sprite.png', 'partner-logo-3', );
+$partner-logo-4-name: 'partner-logo-4';
+$partner-logo-4-x: 951px;
+$partner-logo-4-y: 2061px;
+$partner-logo-4-offset-x: -951px;
+$partner-logo-4-offset-y: -2061px;
+$partner-logo-4-width: 95px;
+$partner-logo-4-height: 61px;
+$partner-logo-4-total-width: 1888px;
+$partner-logo-4-total-height: 2653px;
+$partner-logo-4-image: '../images/sprite.png';
+$partner-logo-4: (951px, 2061px, -951px, -2061px, 95px, 61px, 1888px, 2653px, '../images/sprite.png', 'partner-logo-4', );
+$partner-logo-5-name: 'partner-logo-5';
+$partner-logo-5-x: 1733px;
+$partner-logo-5-y: 1780px;
+$partner-logo-5-offset-x: -1733px;
+$partner-logo-5-offset-y: -1780px;
+$partner-logo-5-width: 120px;
+$partner-logo-5-height: 54px;
+$partner-logo-5-total-width: 1888px;
+$partner-logo-5-total-height: 2653px;
+$partner-logo-5-image: '../images/sprite.png';
+$partner-logo-5: (1733px, 1780px, -1733px, -1780px, 120px, 54px, 1888px, 2653px, '../images/sprite.png', 'partner-logo-5', );
+$pen-holder-name: 'pen-holder';
+$pen-holder-x: 1442px;
+$pen-holder-y: 1630px;
+$pen-holder-offset-x: -1442px;
+$pen-holder-offset-y: -1630px;
+$pen-holder-width: 291px;
+$pen-holder-height: 329px;
+$pen-holder-total-width: 1888px;
+$pen-holder-total-height: 2653px;
+$pen-holder-image: '../images/sprite.png';
+$pen-holder: (1442px, 1630px, -1442px, -1630px, 291px, 329px, 1888px, 2653px, '../images/sprite.png', 'pen-holder', );
+$social-sprites-name: 'social-sprites';
+$social-sprites-x: 1733px;
+$social-sprites-y: 1914px;
+$social-sprites-offset-x: -1733px;
+$social-sprites-offset-y: -1914px;
+$social-sprites-width: 140px;
+$social-sprites-height: 21px;
+$social-sprites-total-width: 1888px;
+$social-sprites-total-height: 2653px;
+$social-sprites-image: '../images/sprite.png';
+$social-sprites: (1733px, 1914px, -1733px, -1914px, 140px, 21px, 1888px, 2653px, '../images/sprite.png', 'social-sprites', );
+$start-ex-name: 'start-ex';
+$start-ex-x: 1831px;
+$start-ex-y: 1695px;
+$start-ex-offset-x: -1831px;
+$start-ex-offset-y: -1695px;
+$start-ex-width: 42px;
+$start-ex-height: 47px;
+$start-ex-total-width: 1888px;
+$start-ex-total-height: 2653px;
+$start-ex-image: '../images/sprite.png';
+$start-ex: (1831px, 1695px, -1831px, -1695px, 42px, 47px, 1888px, 2653px, '../images/sprite.png', 'start-ex', );
+$triangle-description-name: 'triangle-description';
+$triangle-description-x: 0px;
+$triangle-description-y: 1100px;
+$triangle-description-offset-x: 0px;
+$triangle-description-offset-y: -1100px;
+$triangle-description-width: 622px;
+$triangle-description-height: 1553px;
+$triangle-description-total-width: 1888px;
+$triangle-description-total-height: 2653px;
+$triangle-description-image: '../images/sprite.png';
+$triangle-description: (0px, 1100px, 0px, -1100px, 622px, 1553px, 1888px, 2653px, '../images/sprite.png', 'triangle-description', );
+$triangle-footer-name: 'triangle-footer';
+$triangle-footer-x: 622px;
+$triangle-footer-y: 1100px;
+$triangle-footer-offset-x: -622px;
+$triangle-footer-offset-y: -1100px;
+$triangle-footer-width: 622px;
+$triangle-footer-height: 530px;
+$triangle-footer-total-width: 1888px;
+$triangle-footer-total-height: 2653px;
+$triangle-footer-image: '../images/sprite.png';
+$triangle-footer: (622px, 1100px, -622px, -1100px, 622px, 530px, 1888px, 2653px, '../images/sprite.png', 'triangle-footer', );
+$triangle-platforms-name: 'triangle-platforms';
+$triangle-platforms-x: 1244px;
+$triangle-platforms-y: 1100px;
+$triangle-platforms-offset-x: -1244px;
+$triangle-platforms-offset-y: -1100px;
+$triangle-platforms-width: 622px;
+$triangle-platforms-height: 530px;
+$triangle-platforms-total-width: 1888px;
+$triangle-platforms-total-height: 2653px;
+$triangle-platforms-image: '../images/sprite.png';
+$triangle-platforms: (1244px, 1100px, -1244px, -1100px, 622px, 530px, 1888px, 2653px, '../images/sprite.png', 'triangle-platforms', );
+$spritesheet-width: 1888px;
+$spritesheet-height: 2653px;
+$spritesheet-image: '../images/sprite.png';
+$spritesheet-sprites: ($browser, $client-image, $coffee-mug, $earphones, $feature-1, $feature-2, $feature-3, $free-trial-arrow, $get-newsletter, $macbook, $partner-logo-1, $partner-logo-2, $partner-logo-3, $partner-logo-4, $partner-logo-5, $pen-holder, $social-sprites, $start-ex, $triangle-description, $triangle-footer, $triangle-platforms, );
+$spritesheet: (1888px, 2653px, '../images/sprite.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

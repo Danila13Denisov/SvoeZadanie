@@ -1,0 +1,18 @@
+@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "../../node_modules/normalize.scss/normalize";
+@import url("https://fonts.googleapis.com/css?family=Exo:100,400,500");
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+@import "global/_variables";
+@import "global/_general";
+@import "global/bootstrap";
+
+@import "sections/_hero";
+@import "sections/_platforms";
+@import "sections/_features";
+@import "sections/_description";
+@import "sections/_clients";
+@import "sections/_browser";
+@import "sections/_try-now";
+@import "sections/_footer";

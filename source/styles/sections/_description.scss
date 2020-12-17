@@ -1,0 +1,39 @@
+#description {
+	min-height: 550px;
+	background-image: url("../../images/triangle-description.png");
+	background-repeat: no-repeat;
+	background-position: 0% -35%;
+	background-attachment: fixed;
+	.container {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		.row {
+			.description-image {
+				@media (max-width: 991px) {
+					img {
+						margin-top: 30px;
+					}
+				}
+			}
+			.description-text {
+				margin-top: 50px !important;
+				margin-bottom: 50px !important;
+				h4, span {
+					@media (max-width: 991px) {
+						color: $white !important;
+					}
+					@media (max-width: 575px) {
+						color:$red !important;
+					}
+				}
+				h2 {
+					margin-top: 11px;
+				}
+				p {
+					margin-top: 27px;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}

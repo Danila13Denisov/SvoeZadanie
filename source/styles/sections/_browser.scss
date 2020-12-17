@@ -1,0 +1,22 @@
+#browser {
+	background-color: $light-gray;
+	.browser-features {
+		position: relative;
+		min-height: 756px;
+		@media (max-width: 767px) {
+			min-height: 700px;
+		}
+		@media (max-width: 575px) {
+			min-height: 650px;
+		}
+		padding-top: 100px;
+		p {
+			margin-top: 35px;
+		}
+		img {
+			display: block;
+			position: absolute;
+			bottom: 0;
+		}
+	}
+}

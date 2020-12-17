@@ -1,0 +1,56 @@
+#hero {
+	padding: 50px 0; //padding za mobilne
+	background-image: url(../../images/hero.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh; //fix za mobilne uredjaje, sa width 320px, zbog background-size: cover, ispada content iz vh
+	height: 100%; //postavi content na 100vh, a onda wrapuje 100% contenta ako je manje od 100vh
+	h1 { font-weight: 100; }
+	.play-button {
+		height: 60px;
+		width: 60px;
+		background-color: $light-purple;
+		margin-top: 46px;
+		margin-bottom: 40px;
+		border-radius: 50%;
+		cursor: pointer;
+		box-shadow: 0 0 0 0 transparent;
+		transform: scale(1);
+		transition: all ease-in-out 300ms;
+		&:hover {
+			transform: scale(1.2);
+			background-color: darken($light-purple, 15%);
+			box-shadow: 0 0 35px 10px $light-purple;
+			.play-triangle { transform: scale(1.2); }
+		}
+		.play-triangle {
+			width: 0;
+			height: 0;
+			border-top: 9px solid transparent;
+			border-bottom: 10px solid transparent;
+			border-left: 17px solid $white;
+			position: relative;
+			left: 5%;
+			transform: scale(1);
+			transition: all ease-in-out 350ms;
+		}
+	}
+	a {
+		margin-bottom: 14px;
+		opacity: 0.8;
+		padding: 18px 50px;
+		border-color: #ff6d6d;
+		background: #ff6d6d;
+		transition: 0.3s;
+
+		&:hover{
+			border-color: darken($red,15%);
+			background-color: darken($red,15%);
+		}
+	}
+	small {
+		display: block;
+		font-size: 12px;
+		opacity: 0.6;
+	}
+}
